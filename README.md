@@ -14,6 +14,12 @@ Their drawings are rendered live, side by side, with no human retouching.**
 
 </div>
 
+https://github.com/user-attachments/assets/a6f9ccc1-dc48-4355-95b4-ffae80c551a0
+
+<img width="1582" height="1077" alt="Screenshot at Sep 17 21-23-52" src="https://github.com/user-attachments/assets/9106ebbb-2efb-4f25-b387-ffbdba2eb144" />
+<img width="1858" height="1956" alt="screencapture-localhost-5201-2026-09-17-21_24_06" src="https://github.com/user-attachments/assets/926aa088-dee9-451e-808c-d4379b2d6f82" />
+
+
 ---
 
 A model can bluff its way through prose. It cannot bluff its way through a picture.
