@@ -1,0 +1,9 @@
+packages:
+  - shared
+  - server
+  - web
+
+# esbuild (a Vite dependency) needs its postinstall to place the platform binary.
+# pnpm blocks dependency build scripts by default, so allow exactly this one.
+allowBuilds:
+  esbuild: true

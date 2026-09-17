@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Blindfolded Pictionary Duel">
+  <rect width="64" height="64" rx="12" fill="#12100e" />
+  <!-- two strokes, one per model, meeting at the same subject -->
+  <path
+    d="M12 46 C 18 20, 28 20, 30 34 C 32 46, 40 48, 46 40"
+    fill="none"
+    stroke="#ff9d2e"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M52 46 C 46 20, 36 20, 34 34 C 32 46, 24 48, 18 40"
+    fill="none"
+    stroke="#3fe0d0"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <circle cx="32" cy="34" r="3.2" fill="#f5f3ec" />
+</svg>

@@ -1,0 +1,24 @@
+{
+  "name": "blindfolded-pictionary-duel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "description": "Two models draw the same subject using nothing but raw SVG path data. Rendered live, side by side.",
+  "scripts": {
+    "dev": "concurrently -n server,web -c magenta,cyan \"pnpm dev:server\" \"pnpm dev:web\"",
+    "dev:server": "pnpm --filter server dev",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm --filter server build && pnpm --filter web build",
+    "typecheck": "pnpm --filter server typecheck && pnpm --filter web typecheck",
+    "test": "pnpm --filter server test",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
